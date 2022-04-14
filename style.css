@@ -1,10 +1,9 @@
 body {
 padding: 0;
 margin: 0;
+background-image: url(background/download.png);
 }
 .nav {
-    background-image: url(background/download.png);
-    
     display: flex;
     font-family:  HelveticaNowDisplay,Arial,sans-serif;;
 
@@ -16,16 +15,17 @@ margin: 0;
     border: 15px solid black;
     border-radius: 100%;
     background-color: black;
-     margin-left: 30px;
+     margin-left: 25px;
      cursor: pointer;
 }
 
 .nav>a {
-    color: black;
+    color: rgb(0,13,16);
     text-decoration: none;
     font-size: 300px;
     font-weight: 600;
     line-height: 18.5rem;
+    margin-left: 8px;
     
 }
 .nav>p>a {
@@ -48,4 +48,51 @@ font-weight: 600;
     text-decoration: none;
     color: black;
     line-height: 8rem;
+}
+.buttons>a:hover {
+    text-decoration: underline;
+}
+.buttons>h1 {
+    font-size: 60px;
+    position: relative;
+}
+.finish{
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.finish>h4 {
+    align-self: left;
+    margin-top: 220px;
+    margin-left: 10px;
+    font-family:  HelveticaNowDisplay,Arial,sans-serif;;
+    font-size: 20px;
+}
+.finish>h4>a {
+    font-family:  HelveticaNowDisplay,Arial,sans-serif;;
+    text-decoration: none;
+    color: white;
+    float: right;
+    font-size: 16px;
+    border: 13px solid rgb(0,13,16);
+    background-color: rgb(0,13,16);
+    border-radius:20px 20px 20px 20px;
+    padding: 2px;
+    margin-left: 10px;
+}
+.nextpage {
+    
+    background-color: white;
+    font-family:  HelveticaNowDisplay,Arial,sans-serif;;
+}
+.nextpage>h1 {
+    font-size: 55px;
+    margin-left: 550px;
+    line-height: 3.5rem;
+    
+    
+    
+}
+.nextpage>p {
+    text-align: center;
+    color: gray;
 }
