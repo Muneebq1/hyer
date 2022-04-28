@@ -1,7 +1,11 @@
 body {
 padding: 0;
 margin: 0;
-background-image: url(background/download.png);
+
+}
+.firstpage {
+    background-image: url(background/download.png);
+    height: 656px;
 }
 .nav {
     display: flex;
@@ -96,3 +100,165 @@ font-weight: 600;
     text-align: center;
     color: gray;
 }
+
+.thirdpage {
+    background-image: none;
+    background-color: white;
+}
+.line1 {
+    display: flex;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    
+    margin-left: 42%;
+}
+
+.box1 {
+    width: fit-content;
+}
+
+.box1 h3 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.box1 p {
+    margin-top: 15px;
+    font-weight: 400;
+    opacity: 80%;
+}
+
+.box2 {
+    width: fit-content;
+    margin-left: 40px;
+}
+
+.box2 h3 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.box2 p {
+    margin-top: 15px;
+    font-weight: 400;
+    opacity: 80%;
+}
+
+.line2 {
+    display: flex;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10%;
+    margin-left: 42%;
+}
+
+.box3 {
+    width: fit-content;
+}
+
+.box3 h3 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.box3 p {
+    margin-top: 15px;
+    font-weight: 400;
+    opacity: 80%;
+}
+
+.box4 {
+    width: fit-content;
+    margin-left: 70px;
+}
+
+.box4 h3 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.box4 p {
+    margin-top: 15px;
+    font-weight: 400;
+    opacity: 80%;
+}
+.fourthpage {
+    display: flex;
+}
+.left {
+    color: white;
+    background-color:#151623; ;
+    height: 750px;
+    width: 480px;
+}
+.left>h1 {
+    
+    margin-left: 50px;
+    font-size: 50px;
+    
+    font-weight: 600;
+    
+}
+.left>p {
+    margin-left: 50px;
+    margin-top: 420px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.left>a {
+    color: white;
+    
+    margin-left: 50px;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 12px;
+    font-size:20px ;
+    border-radius: 25px 25px 25px 25px;
+}
+.center {
+    background-image: url(background/background2.png);
+    background-size: cover;
+    height: 750px;
+    width: 480px;
+}
+.center>h2 {
+    font-size: 25px;
+    margin-top: 700px;
+    margin-left: 80px;
+    color: white;
+}
+.last {
+    background-color: #bc7155;
+    height:750px;
+    width: 480px;
+}
+.last>h2  {
+    margin-top:140px;
+    color: white;
+    font-size: 25px;
+    margin-left: 80px;
+
+}
+.thirdpage{
+  
+}
+.thirdpage>img {
+width: 40%;
+height: auto;
+margin-left: 100px;
+border-radius: 0% 0% 10% 0%;
+}
+.thirdpage>h2 {
+margin-top: 70px;
+margin-left: 100px;
+
+}
+.under {
+    display: inline-flex;
+   float: right;
+}
+.container1{
+    justify-content:flex-start;
+}
+
+    
