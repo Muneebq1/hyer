@@ -258,7 +258,33 @@ margin-left: 100px;
    float: right;
 }
 .container1{
-    justify-content:flex-start;
+    margin-right:50px ;
+}
+.container2{
+    margin-right: 100px;
 }
 
+
+
+
+
+.container2>h2 {
+    border: 1px;
+    color: rgb(227,225,226);
+    border-style: solid;
+    width: 250px;
+    border
     
+}
+    
+.container1>h2{
+    border: 1px;
+    color: rgb(227,225,226);
+    border-style: solid;
+    width: 250px;
+}
+.forthimg>img{
+width: 650px;
+height: 800px;
+background-color: rgb(15,15,28);
+}
